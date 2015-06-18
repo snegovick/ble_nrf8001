@@ -1,4 +1,4 @@
-update=Чт. 18 июня 2015 06:49:30
+update=Чт. 18 июня 2015 10:19:28
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=libs/kicad_libs/nrf8001
 LibName32=libs/kicad_libs/alt_symbols
+LibName33=libs/kicad_libs/3225_4p_quartz
