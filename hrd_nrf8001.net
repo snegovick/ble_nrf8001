@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/snegovick/jdev/me_inc/ble_module_8001/hrd_nrf8001/hrd_nrf8001.sch)
-    (date "Чт. 18 июня 2015 10:58:02")
+    (date "Чт. 18 июня 2015 11:11:20")
     (tool "Eeschema 0.201504171002+5604~22~ubuntu14.10.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -35,7 +35,7 @@
       (tstamp 558249F5))
     (comp (ref X1)
       (value 32.768kHz)
-      (footprint Crystals:Crystal_Round_Horizontal_2mm)
+      (footprint MC-146:MC-146)
       (libsource (lib device) (part CRYSTAL))
       (sheetpath (names /) (tstamps /))
       (tstamp 55824C60))
@@ -143,6 +143,7 @@
       (tstamp 5582453B))
     (comp (ref X2)
       (value 3225_4P_quartz)
+      (footprint "SMD_3225:SMD 3225")
       (libsource (lib 3225_4p_quartz) (part 3225_4P_quartz))
       (sheetpath (names /) (tstamps /))
       (tstamp 558274A3)))
