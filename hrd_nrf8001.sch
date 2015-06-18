@@ -543,6 +543,28 @@ F 3 "" H 6800 5475 60  0000 C CNN
 	1    6800 5475
 	1    0    0    -1  
 $EndComp
+$Comp
+L nRF8001 U1
+U 1 1 5582453B
+P 5475 3250
+F 0 "U1" H 5525 3600 60  0000 C CNN
+F 1 "nRF8001" H 5225 3600 60  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" H 4925 3200 60  0001 C CNN
+F 3 "" H 4925 3200 60  0000 C CNN
+	1    5475 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3225_4P_quartz X?
+U 1 1 558274A3
+P 5575 1125
+F 0 "X?" H 5725 1400 60  0000 C CNN
+F 1 "3225_4P_quartz" H 5225 1400 60  0000 C CNN
+F 2 "" H 5600 1125 60  0000 C CNN
+F 3 "" H 5600 1125 60  0000 C CNN
+	1    5575 1125
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4575 2900 2975 2900
 Wire Wire Line
@@ -782,17 +804,6 @@ Wire Wire Line
 	6975 5000 6800 5000
 Wire Wire Line
 	6800 5000 6800 4575
-$Comp
-L nRF8001 U1
-U 1 1 5582453B
-P 5475 3250
-F 0 "U1" H 5525 3600 60  0000 C CNN
-F 1 "nRF8001" H 5225 3600 60  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" H 4925 3200 60  0001 C CNN
-F 3 "" H 4925 3200 60  0000 C CNN
-	1    5475 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4825 2350 4825 2250
 Connection ~ 4825 2250
@@ -800,4 +811,26 @@ Wire Wire Line
 	7700 3500 6625 3500
 Connection ~ 6850 3500
 Connection ~ 7075 3500
+Wire Wire Line
+	5325 1225 5275 1225
+Wire Wire Line
+	5275 1225 5275 1125
+Wire Wire Line
+	5825 1025 5875 1025
+Wire Wire Line
+	5875 1025 5875 1125
+Wire Wire Line
+	5825 1225 5875 1225
+Wire Wire Line
+	5875 1225 5875 1475
+Wire Wire Line
+	5875 1475 6075 1475
+Connection ~ 6075 1475
+Wire Wire Line
+	5325 1025 5225 1025
+Wire Wire Line
+	5225 1025 5225 1475
+Wire Wire Line
+	5225 1475 5075 1475
+Connection ~ 5075 1475
 $EndSCHEMATC
