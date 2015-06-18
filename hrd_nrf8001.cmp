@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by Cvpcb 0.201504171002+5604~22~ubuntu14.10.1-product   date = Чт. 18 июня 2015 08:44:55
+
+BeginCmp
+TimeStamp = /55824D5F;
+Reference = C1;
+ValeurCmp = 15nF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /558249F5;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /558249DB;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /558248CA;
+Reference = C4;
+ValeurCmp = 33nF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55824D20;
+Reference = C5;
+ValeurCmp = 15nF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55825000;
+Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5582657C;
+Reference = C7;
+ValeurCmp = 12pF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55826528;
+Reference = C8;
+ValeurCmp = 12pF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55825F79;
+Reference = C9;
+ValeurCmp = 1nF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55825230;
+Reference = C10;
+ValeurCmp = 2.2nF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /558252FC;
+Reference = C11;
+ValeurCmp = DNP;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55825872;
+Reference = C12;
+ValeurCmp = 1.8pF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55825913;
+Reference = C13;
+ValeurCmp = 1.2pF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /558253B1;
+Reference = L1;
+ValeurCmp = 8.2nH;
+IdModule  = Inductors_NEOSID:Neosid_Inductor_SM0603CG;
+EndCmp
+
+BeginCmp
+TimeStamp = /558255AA;
+Reference = L2;
+ValeurCmp = 3.9nH;
+IdModule  = Inductors_NEOSID:Neosid_Inductor_SM0603CG;
+EndCmp
+
+BeginCmp
+TimeStamp = /55825325;
+Reference = L3;
+ValeurCmp = 5.6nH;
+IdModule  = Inductors_NEOSID:Neosid_Inductor_SM0603CG;
+EndCmp
+
+BeginCmp
+TimeStamp = /5582785C;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /55827699;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /55825FDE;
+Reference = R1;
+ValeurCmp = 22k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5582453B;
+Reference = U1;
+ValeurCmp = nRF8001;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55824C60;
+Reference = X1;
+ValeurCmp = 32.768kHz;
+IdModule  = Crystals:Crystal_Round_Horizontal_2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /558264A1;
+Reference = X2;
+ValeurCmp = 16MHz;
+IdModule  = ;
+EndCmp
+
+EndListe
