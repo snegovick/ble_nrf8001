@@ -1,3 +1,6 @@
 [submodule "libs/kicad_libs"]
 	path = libs/kicad_libs
 	url = https://github.com/snegovick/kicad_libs.git
+[submodule "mods/Housings_DFN_QFN.pretty"]
+	path = mods/Housings_DFN_QFN.pretty
+	url = https://github.com/snegovick/Housings_DFN_QFN.pretty.git
